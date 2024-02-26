@@ -1,0 +1,1 @@
+bin\mysql --host=localhost --port=55555 --user=root

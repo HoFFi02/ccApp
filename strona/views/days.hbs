@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Days</title>
+</head>
+<body>
+    <h1>Days with Recipes</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Day Number</th>
+                <th>Recipe ID</th>
+                <th>Meal ID</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{#each days}}
+                <tr>
+                    <td>{{numer_dnia}}</td>
+                    <td>{{przepisy_id_przepisy}}</td>
+                    <td>{{posilek_id_posilek}}</td>
+                </tr>
+            {{/each}}
+        </tbody>
+    </table>
+</body>
+</html>

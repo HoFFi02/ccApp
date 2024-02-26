@@ -1,0 +1,1 @@
+bin\mysqld.exe --defaults-file="config.ini" --console
